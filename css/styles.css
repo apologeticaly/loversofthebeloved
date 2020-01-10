@@ -1,0 +1,111 @@
+h1 {
+    font-family: 'Crimson Text', serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #2F612F;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 0 auto 0 auto;
+}
+
+p {
+    font-family: 'Crimson Text', serif;
+    font-size: 16px;
+    color: #212821;
+}
+
+.nav-item {
+    font-family: 'Questrial', serif;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 2px;
+}
+
+.music-button {
+    max-height: 40px;
+}
+
+.music-button-large {
+    max-height: 50px;
+}
+.navbar {
+    padding: 1rem 0rem;
+}
+
+.logo {
+    max-height: 35px;
+}
+
+.nav-item {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.album {
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+.album-info {
+    text-align: center;
+    margin: auto 0 auto 0;
+}
+
+.btn-primary {
+    font-family: 'Questrial', serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: 0.75rem 1.25rem;
+    letter-spacing: 2px;
+    background-color: #508D46;
+    border: none;
+    border-radius: 0;
+}
+
+.btn-primary:hover {
+    background-color: rgb(117, 170, 108);
+}
+
+.btn-primary:active {
+    background-color: rgb(117, 170, 108)!important;
+}
+
+.btn-primary:focus {
+    background-color: rgb(117, 170, 108)!important;
+}
+
+.row {
+    margin-bottom: 4rem;
+    max-width: 900px;
+    margin-top: 2rem;
+}
+
+.insta {
+    max-width: 100%;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+footer {
+    text-align: center;
+}
+
+.calendar {
+    max-width: 100%;
+}
+
+.banner {
+    max-width: 100%;
+}
+
+.gallery-pic {
+    max-width: 100%;
+    display: flex;
+    align-self: center;
+    margin-bottom: 1rem;
+  }
+
+  .columns {
+    column-count: 2;
+    column-gap: 1rem;
+  }
