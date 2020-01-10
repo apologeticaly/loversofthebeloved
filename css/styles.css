@@ -78,12 +78,13 @@ p {
     margin-bottom: 4rem;
     max-width: 900px;
     margin-top: 2rem;
+    position: relative;
 }
 
 .insta {
     max-width: 100%;
     padding-right: 5px;
-    padding-left: 5px;
+    z-index: -1;
 }
 
 footer {
@@ -103,9 +104,15 @@ footer {
     display: flex;
     align-self: center;
     margin-bottom: 1rem;
-  }
+}
 
-  .columns {
+.columns {
     column-count: 2;
     column-gap: 1rem;
-  }
+}
+
+.insta-title {
+    position: relative;
+    margin: 0 auto;
+    z-index: 2;
+}
